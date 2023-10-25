@@ -1,0 +1,22 @@
+mat-toolbar{
+  position: sticky;
+  position: -webkit-sticky; /* For macOS/iOS Safari /
+  top: 0; / Sets the sticky toolbar to be on top */
+  z-index: 1000;
+}
+
+#inputdiv {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+#textbar {
+  width: 90%;
+}
+
+
